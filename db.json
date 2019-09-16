@@ -1,0 +1,21 @@
+{
+    "candidates":[
+        {
+           "id":"1",
+           "name":"Nwoke Jideofor",
+           "party":"Democrats",
+           "email":"njusticej@gmail.com",
+           "Age":"50"
+        }
+    ],
+    "voters":[
+        {
+           "id":"1", 
+           "name":"Obi Uche",
+          "email":"ugoval93@gmail.com",
+            "phone": "08160225547",
+            "age":"26"
+        }
+    ]
+
+}
