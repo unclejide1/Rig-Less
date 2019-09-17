@@ -13,7 +13,7 @@
     "voters":[
         {
            "id":"1", 
-           "name":"Obi Uche",
+           "username":"Obi Uche",
           "email":"ugoval93@gmail.com",
             "password": "08160225547",
             "age":"26"
