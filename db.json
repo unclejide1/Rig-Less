@@ -5,7 +5,9 @@
            "name":"Nwoke Jideofor",
            "party":"Democrats",
            "email":"njusticej@gmail.com",
-           "Age":"50"
+           "Age":"50",
+           "isDeleted": false
+
         }
     ],
     "voters":[
@@ -16,6 +18,15 @@
             "phone": "08160225547",
             "age":"26"
         }
+    ],
+    "votes":[
+        {
+            "id":"1",
+            "votersId":"",
+            "candidatesId":"",
+            "time":""
+        }
     ]
+
 
 }
