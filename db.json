@@ -1,39 +1,35 @@
 {
-    "candidates":[
-        {
-           "id":"1",
-           "name":"Nwoke Jideofor",
-           "party":"Democrats",
-           "email":"njusticej@gmail.com",
-           "Age":"50",
-           "isDeleted": false
-
-        }
-    ],
-    "voters":[
-        {
-           "id":"1", 
-           "username":"Obi Uche",
-          "email":"ugoval93@gmail.com",
-            "password": "08160225547",
-            "age":"26"
-        }
-    ],
-    "votes":[
-        {
-            "id":"1",
-            "votersId":"",
-            "candidatesId":"",
-            "time":""
-        }
-    ],
-    "admin":[
-        {
-            "id":"1",
-            "email":"jyddynwoks@yahoo.com",
-            "password":"freedom"
-        }
-    ]
-
-
+  "candidates": [
+    {
+      "name": "ugochukwu",
+      "email": "njusticej@gmail.com",
+      "party": "ac",
+      "age": "99",
+      "id": 2
+    }
+  ],
+  "voters": [
+    {
+      "id": 1,
+      "username": "Obi Uche",
+      "email": "ugoval93@gmail.com",
+      "password": "08160225547",
+      "age": "26"
+    },
+    {
+      "username": "jide",
+      "email": "njusticej@gmail.com",
+      "password": "jideofor",
+      "age": "67",
+      "id": 2
+    }
+  ],
+  "votes": [],
+  "admin": [
+    {
+      "id": 1,
+      "email": "jyddynwoks@yahoo.com",
+      "password": "freedom"
+    }
+  ]
 }
