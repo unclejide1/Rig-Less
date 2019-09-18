@@ -38,22 +38,24 @@
 </nav>
 <div class="login-page">
 <div class="form">
-    <form action="" class="register-form">
-        <label>Username:<input type="text" placeholder="username"></label>
-        <label>Password:<input type="password" placeholder="password"></label>
-        <label>Email:<input type="email" placeholder="email"></label>
-        <button>Create</button>
+    <form class="register-form" id="register">
+        <label>Username:<input type="text" placeholder="username" id="user"></label>
+        <label>Password:<input type="password" placeholder="password" id="pass"></label>
+        <label>Email:<input type="email" placeholder="email" id="mail"></label>
+        <label>Age<input type="Number" placeholder="age" id="aged"></label>
+        <button type="submit">Create</button>
         <p class="message">Already Registered?<a href="#">Login</a></p>
     </form>
-    <form action="" class="login-form">
-            <label>Username:<input type="text" placeholder="username"></label>
-            <label>Password:<input type="password" placeholder="password"></label>
-            <button>login</button>
+    <form  class="login-form" id="signin">
+            <label>Username:<input type="text" placeholder="username" id="signinuser"></label>
+            <label>Password:<input type="password" placeholder="password" id="signpass"></label>
+            <button type="submit">login</button>
         <p class="message">Not Registered?<a href="#">Register</a></p>
     </form>
 </div>
 </div>
 <script src="../js/jquery.js"></script>
+<script src="../js/login.js"></script>
 <script>
 $('.message a').click(function(){
     $('form').animate({height:"toggle", opacity:"toggle"}, "slow");

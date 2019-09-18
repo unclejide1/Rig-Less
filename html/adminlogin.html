@@ -38,10 +38,10 @@
 </nav>
 <div class="login-page">
 <div class="form">
-    <form action="" class="login-form">
-            <label>Admin Id:<input type="text" placeholder="Email"></label>
-            <label>Password:<input type="password" placeholder="password"></label>
-            <button>login</button>
+    <form class="login-form" id="adminsignin">
+            <label>Admin Id:<input type="text" placeholder="Email" id="adminId"></label>
+            <label>Password:<input type="password" placeholder="password" id="adminPass"></label>
+            <button type="submit">login</button>
     </form>
 </div>
 </div>
@@ -51,5 +51,6 @@ $('.message a').click(function(){
     $('form').animate({height:"toggle", opacity:"toggle"}, "slow");
 });
 </script>
+<script src="../js/adminlogin.js"></script>
 </body>
 </html>
