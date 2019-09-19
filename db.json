@@ -6,6 +6,13 @@
       "party": "ac",
       "age": "99",
       "id": 2
+    },
+    {
+      "name": "jideofor",
+      "email": "njusticej@gmail.com",
+      "party": "PDP",
+      "age": "56",
+      "id": 3
     }
   ],
   "voters": [
@@ -17,32 +24,28 @@
       "age": "26"
     },
     {
-      "username": "jide",
-      "email": "njusticej@gmail.com",
-      "password": "jideofor",
-      "age": "67",
+      "username": "valentine",
+      "email": "ugoval93@gmail.com",
+      "password": "valentine",
+      "age": "44",
       "id": 2
-    },
-    {
-      "username": "ekele",
-      "email": "ekeleagbakwuru@gmail.com",
-      "password": "2436",
-      "age": "55",
-      "id": 3
-    },
-    {
-      "username": "bobo",
-      "email": "nwachukwu@gmail.com",
-      "password": "king",
-      "age": "6",
-      "id": 4
     }
   ],
   "votes": [
     {
-      "id": 1,
-      "voters-id": "",
-      "candidates-id": ""
+      "votersUsername": "ibrahim",
+      "candidatesId": "ugochukwu",
+      "id": 1
+    },
+    {
+      "votersUsername": "valentine",
+      "candidatesId": "jideofor",
+      "id": 2
+    },
+    {
+      "votersUsername": "valentine",
+      "candidatesId": "ugochukwu",
+      "id": 3
     }
   ],
   "admin": [
