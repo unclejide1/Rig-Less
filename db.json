@@ -1,0 +1,58 @@
+{
+  "candidates": [
+    {
+      "name": "ugochukwu",
+      "email": "njusticej@gmail.com",
+      "party": "ac",
+      "age": "99",
+      "id": 2
+    },
+    {
+      "name": "jideofor",
+      "email": "njusticej@gmail.com",
+      "party": "PDP",
+      "age": "56",
+      "id": 3
+    }
+  ],
+  "voters": [
+    {
+      "id": 1,
+      "username": "Obi Uche",
+      "email": "ugoval93@gmail.com",
+      "password": "08160225547",
+      "age": "26"
+    },
+    {
+      "username": "valentine",
+      "email": "ugoval93@gmail.com",
+      "password": "valentine",
+      "age": "44",
+      "id": 2
+    }
+  ],
+  "votes": [
+    {
+      "votersUsername": "ibrahim",
+      "candidatesId": "ugochukwu",
+      "id": 1
+    },
+    {
+      "votersUsername": "valentine",
+      "candidatesId": "jideofor",
+      "id": 2
+    },
+    {
+      "votersUsername": "valentine",
+      "candidatesId": "ugochukwu",
+      "id": 3
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "email": "jyddynwoks@yahoo.com",
+      "password": "freedom"
+    }
+  ]
+}

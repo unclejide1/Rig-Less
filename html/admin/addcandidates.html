@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Candidates</title>
+    <style>
+            body {
+                margin: 0px;
+                border: 0px;
+            }
+            
+            #Header {
+                width: 100%;
+                height: 80px;
+                background-color: rgba(20, 63, 87, 0.404);
+                color: azure;
+            }
+            
+            #Sidebar {
+                width: 180px;
+                height: 130px;
+                background-color: rgb(25, 5, 63);
+                color: azure;
+                float: left;
+            }
+            
+            #Data {
+                height: 600px;
+                background: rgb(70, 69, 69);
+            }
+            
+            ul li {
+                padding: 20px;
+                
+            }
+            
+            ul li:hover {
+                background: rgb(0, 0, 29);
+                color: azure;
+            }
+        </style>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+</head>
+
+<body>
+        <div id="Header">
+                <center> <img src="../../images/admin logo.jpg" alt="admin_logo" style="width:50px"></center>
+                <center> Admin</center>
+            </div>
+            <nav>
+                <div class="container-fluid" id="wrap">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../adminlogin.html">Admin Login</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="./admindashboard.html">Admin Dashboard</a>
+                            </li>
+                            <li class="nav-item active">
+                                    <a class="nav-link" href="./addcandidates.html">Add Candidates</a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+<div class="row">
+    <div class="col-md-3">
+        <div id="Sidebar">
+            <ul>
+                <li>
+                    <a href="./candidates.html">Candidates</a>
+                </li>
+            
+                <li>
+                    <a href="./voters.html">Voters</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="container">
+            <div stylle="width":300px>
+                <form id="addcandid">
+                    <div class="form-group"><label>Name:</label><input type="text" placeholder="name" class="form-control" id="pname"></div>
+                    <div class="form-group"><label>Political Party:</label><input type="text" placeholder="political party" class="form-control" id="pparty"></div>
+                    <div class="form-group"><label>Email:</label><input type="email" placeholder="email" class="form-control" id="pemail"></div>
+                    <div class="form-group"><label>Age:</label><input type="text" placeholder="age" class="form-control" id="page"></div>
+                    <button type="submit" class="btn btn-primary">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/addcandidates.js"></script>
+</body>
+
+</html>

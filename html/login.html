@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rig-Less Login</title>
+<!-- Bootstrap -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+<!--login css-->
+<link rel="stylesheet" href="../css/loginStyles.css">
+</head>
+<body>
+<div class="container">
+            <h1 class="display-4 ">Rig-Less:<span>Login</span></h1>
+</div>
+<Nav>
+    <div class="container-fluid " id="wrap">
+    <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item" id="login">
+                <a class="nav-link active" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./adminlogin.html">Admin Login</a>
+            </li>
+            <li class="nav-item" id="logout">
+                <button class="btn btn-light" type="submit">Logout</button>
+            </li>
+            </ul>
+    </div>
+        <!-- /.container-fluid -->
+</nav>
+<div class="login-page">
+<div class="form">
+    <form class="register-form" id="register">
+        <label>Username:<input type="text" placeholder="username" id="user"></label>
+        <label>Password:<input type="password" placeholder="password" id="pass"></label>
+        <label>Email:<input type="email" placeholder="email" id="mail"></label>
+        <label>Age<input type="Number" placeholder="age" id="aged"></label>
+        <button type="submit">Create</button>
+        <p class="message">Already Registered?<a href="#">Login</a></p>
+    </form>
+    <form  class="login-form" id="signin">
+            <label>Username:<input type="text" placeholder="username" id="signinuser"></label>
+            <label>Password:<input type="password" placeholder="password" id="signpass"></label>
+            <button type="submit">login</button>
+        <p class="message">Not Registered?<a href="#">Register</a></p>
+    </form>
+</div>
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/login.js"></script>
+<script>
+$('.message a').click(function(){
+    $('form').animate({height:"toggle", opacity:"toggle"}, "slow");
+});
+</script>
+</body>
+</html>
