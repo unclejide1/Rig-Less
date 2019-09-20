@@ -103,8 +103,8 @@ $(document).ready(function () {
                    console.log(elem.name, result.length)
                    $('#result').append(
                     `<tr>
-                    <td>${elem.name}</td>
-                    <td>${result.length}</td>
+                    <td><h3>${elem.name}</h3></td>
+                    <td><h3>${result.length}</h3></td>
                     </tr>
                     `
                 )
