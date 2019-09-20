@@ -29,6 +29,13 @@
       "password": "valentine",
       "age": "44",
       "id": 2
+    },
+    {
+      "username": "sodiq",
+      "email": "hello@gmail.com",
+      "password": "anything",
+      "age": "55",
+      "id": 3
     }
   ],
   "votes": [
@@ -46,6 +53,11 @@
       "votersUsername": "valentine",
       "candidatesId": "ugochukwu",
       "id": 3
+    },
+    {
+      "votersUsername": "sodiq",
+      "candidatesId": "jideofor",
+      "id": 4
     }
   ],
   "admin": [

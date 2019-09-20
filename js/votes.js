@@ -34,7 +34,7 @@ $(document).ready(function () {
             candidatesId: $("#votes").val()
         }
         $.ajax({
-            type: 'GET',
+            method: "GET",
             url: `http://localhost:3000/votes?votersUsername=${user}`,
             data: data,
             success: function (result) {
@@ -90,7 +90,7 @@ $(document).ready(function () {
 
     $.ajax({
         "url": "http://localhost:3000/candidates",
-        "method": 'GET'
+        "method": "GET"
     }).done(res => {
         res.forEach((elem) => {
             console.log(elem);
@@ -103,8 +103,8 @@ $(document).ready(function () {
                    console.log(elem.name, result.length)
                    $('#result').append(
                     `<tr>
-                    <td>${elem.name}</td>
-                    <td>${result.length}</td>
+                    <td><h3>${elem.name}</h3></td>
+                    <td><h3>${result.length}</h3></td>
                     </tr>
                     `
                 )
